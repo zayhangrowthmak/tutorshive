@@ -253,9 +253,10 @@ export default function FinalCTA() {
           className="mt-10 flex flex-wrap justify-center gap-8"
         >
           {[
-            { icon: MessageCircle, label: "WhatsApp", value: "+91 82196 82177", href: "https://wa.me/918219682177" },
-            { icon: Mail,          label: "Email",    value: "project@tutorshive.com", href: "mailto:project@tutorshive.com" },
-            { icon: Phone,         label: "Call",     value: "+91 82196 82177", href: "tel:+918219682177" },
+            { icon: MessageCircle, label: "WhatsApp",  value: "Chat with us",              href: "https://wa.me/918219682177" },
+            { icon: Mail,          label: "Email",     value: "project@tutorshive.com",    href: "mailto:project@tutorshive.com" },
+            { icon: Phone,         label: "🇬🇧 UK",    value: "+44 20 XXXX XXXX",          href: "tel:+4420XXXXXXXX" },    // TODO: replace with real UK number
+            { icon: Phone,         label: "🇦🇺 AU",    value: "+61 2 XXXX XXXX",           href: "tel:+612XXXXXXXX" },     // TODO: replace with real AU number
           ].map(({ icon: Icon, label, value, href }) => (
             <a
               key={label}

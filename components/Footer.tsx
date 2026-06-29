@@ -41,9 +41,10 @@ export default function Footer() {
             </p>
             <div className="flex flex-col gap-2.5">
               {[
-                { icon: Phone,         val: "+91 82196 82177",         href: "tel:+918219682177" },
-                { icon: Mail,          val: "project@tutorshive.com",  href: "mailto:project@tutorshive.com" },
-                { icon: MessageCircle, val: "WhatsApp us",             href: "https://wa.me/918219682177" },
+                { icon: Phone,         val: "🇬🇧 +44 20 XXXX XXXX",        href: "tel:+4420XXXXXXXX" },    // TODO: replace with real UK number
+                { icon: Phone,         val: "🇦🇺 +61 2 XXXX XXXX",         href: "tel:+612XXXXXXXX" },     // TODO: replace with real AU number
+                { icon: Mail,          val: "project@tutorshive.com",       href: "mailto:project@tutorshive.com" },
+                { icon: MessageCircle, val: "WhatsApp us",                  href: "https://wa.me/918219682177" },
               ].map(({ icon: Icon, val, href }) => (
                 <a
                   key={val}
